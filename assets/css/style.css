@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+body {
+	background-color: black;
+	color: black;
+	font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 900;
+	font-family: 'Courier New', Courier, monospace;
+}
+a { 
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+	transition: all 200ms ease-in;
+}
+a.answer-choice:hover {
+	text-decoration: none;
+	font-size: 22px;
+}
+.row { width: 100vw;}
+.game-screen {
+	margin: 15px auto;
+	background-color: rgba(255, 255, 0, .6);
+	padding: 50px;
+	text-align: center;
+	border: 5px solid black;
+	min-height: 90vh;
+	
+}
+.background {
+	position: fixed;
+	box-sizing: border-box;
+	background: url('/images/hp1.jpg');
+	background-attachment: cover;
+	background-position: center;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height: 100%;
+}
+
+
+p { 
+	font-size: 22px;
+}
+#question-display, #timer-display, a:hover, .red-text {
+	margin-top: 20px; 
+	color: white;
+	font-size: 32px;
+	
+	text-shadow: -1px -1px 1px black, 1px 0 1px black, 1px -1px 1px black;
+}
+.text-red {
+	color: red;
+}
+.margin-top-20{ 
+	margin-top: 20px;
+}
+#start-to-play, #results-display {
+	position: fixed;
+	top: 0;
+	left: 0;
+	color: white;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, .89);
+}
+#start-to-play {
+	z-index: 9999;	
+}
+#results-display {
+	background-color: rgba(0, 0, 0, .9);
+	padding-top: 25vh;
+	display: none;
+	z-index: -9999;
+}
+.pressStart { 
+	text-align: center;
+}
+#results-display > h1, #results-display > h2 {
+	text-align: center;
+	margin-top: 20px;
+}
+#start-to-play > h1  {
+	text-align: center;	
+	padding-top: 45vh;
+	color: white;
+	text-shadow: 0 0 2px black, -1px 0 2px black, 0 -1px 2px black, 1px -1px 2px black;
+}
+#start-to-play > h4 { text-align: center; }
+
+.winning-image {
+	width: 250px;
+	height: auto;
+}
+
+#progress-bar-wrapper {
+	margin: 0 auto;
+    height: 10px;
+    width: 500px;
+    
+    background-color: rgba(255, 255, 0, 1);
+    /*background: gray; /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+}
+
+#progress-wrapper {
+    box-shadow: 0 0 5px black;
+}
