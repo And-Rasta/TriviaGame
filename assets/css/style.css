@@ -8,11 +8,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 900;
-	/* font-family: 'Courier New', Courier, monospace; */
+	font-family: 'Gloria Hallelujah', cursive;
 }
 a { 
 	color: black;
-	/* font-family: 'Courier New', Courier, monospace; */
+	font-family: 'Gloria Hallelujah', cursive;
 	transition: all 200ms ease-in;
 }
 a.answer-choice:hover {
@@ -22,7 +22,7 @@ a.answer-choice:hover {
 .row { width: 100vw;}
 .game-screen {
 	margin: 15px auto;
-	background-color: rgba(255, 255, 0, .6);
+	background-color: rgba(255, 60, 0, 0.6);
 	padding: 50px;
 	text-align: center;
 	border: 5px solid black;
@@ -102,7 +102,7 @@ p {
     height: 10px;
     width: 500px;
     
-    background-color: rgba(255, 255, 0, 1);
+    background-color: rgb(17, 79, 192);
     /*background: gray; /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
 }
