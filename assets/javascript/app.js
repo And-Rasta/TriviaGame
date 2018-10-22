@@ -83,7 +83,7 @@ var question4 = new Question("What is a Dementor?",
                 "The professor's wing in Hogwarts",
                 "A pub in Diagon Alley",
                 "A dungeon in Buckingham Palace",
-                "A cupboard in Little Whinging",
+                "A cupboard under the stairs in Little Whinging",
             ], "Harry grew up living in the cupboard under the stairs of the Dursley family's house on Privet Drive", 
             3, imagePath + "closet.jpg");
 ///// END QUESTION SETUP /////////////////////////////////////////////////////////////////////////////////
