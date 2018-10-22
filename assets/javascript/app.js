@@ -1,7 +1,6 @@
 
 'use strict'
 
-
 const missed = -255;                 
 
 
@@ -20,9 +19,7 @@ var backgroundImages = [
     bgPath + 'hp2.jpg',
     bgPath + 'hp3.jpg',
     bgPath + 'hp4.jpg',
-    bgPath + 'hp5.jpg',
-    bgPath + 'hp6.jpg',
-    bgPath + 'hp7.jpg',
+    bgPath + 'hp5.jpg',  
 ];
 
 // Our question object
@@ -36,44 +33,51 @@ function Question(question, answers, aboutAnswer, correctIndex, imgPath) {
 
 
 ////////// QUESTION SETUP //////////////////////////////////////////////////////////////////////////////
-var question1 = new Question("According to the episode title, what is a \"National Concern?\"", 
+var question1 = new Question("What is Hagrid's full name?", 
             [ 
-                "A Dead Guy", 
-                "The Final Solution",
-                "Underage Drinking",
-                "Charlie having cancer"
-            ], "In Season 1 Episode 3, the gang tries to tackle the issue of teenagers drinking by creating a safe place for them to consume booze.", 
-            2,  imagePath + "win.jpg");
+                "Hagrid 'Hell's Angels' Giant", 
+                "Hagrid Potter",
+                "Rubeus Hagrid",
+                "Hodor Hagrid"
+            ], "The half-giant Hogwarts gamekeeper is named Rubeus Hagrid", 
+            2,  imagePath + "hagrid.jpg");
 
-var question2 = new Question("Which two main characters are a couple outside of the show?", 
+var question2 = new Question("Where does Moaning Myrtle live?", 
             [
-                "Mac & Dennis",
-                "Mac & Dee",
-                "Dee & Charlie",
-                "Charlie & Frank",
-            ], "Kaitlin Olsen and Rob McElhenney married in 2008 and introduced their first child on the show!", 1, imagePath + "kaitlinAndRob.jpg");
-var question3 = new Question("Who is Charlie's main crush?",
+                "Harry's closet",
+                "Girls' bathroom at Hogwarts",
+                "Brothel in Hogsmeade",
+                "Azkaban Prison",
+            ], "Moaning Myrtle haunts the girl's toilets on the first floor at Hogwarts, after she was killed by a Basilisk.", 
+            1, imagePath + "myrtle.jpg");
+
+var question3 = new Question("Who is Hermione Granger's pet?",
             [
-                "Dee",
-                "Gail",
-                "Dennis's Mom",
-                "The Waitress",   
-            ], "Right in the pilot episode, we learn Charlie has a crush on the Waitress", 3, imagePath + "waitress.jpg");
-var question4 = new Question("What was Charlie's Original business idea?",
+                "Kneazle the Kinkajou",
+                "Gruffalo the Grunion",
+                "Scabbers the Rat",
+                "Crookshanks the Cat",   
+            ], "Right in the pilot episode, we learn Charlie has a crush on the Waitress", 
+            3, imagePath + "gato.jpg");
+
+var question4 = new Question("What is a Dementor?",
             [
-                "Bridge Painters",
-                "Bird Lawyer",
-                "Kitten Mittens",
-                "Pants for Chickens",
-            ], "In Season 5, Charlie has the idea to create and brand Kitten Mittens", 2, imagePath + "kitten-mittens.gif");
-var question5 = new Question("What was the name of Dee's \"Crazy\" Irish Character?", 
+                "A prank that goes bad",
+                "A spell to turn you into a demon",
+                "A creature that sucks out your soul",
+                "A sickly sweet candy",
+            ], "These guards of Azkaban prison are magical creaturs who feed on human happiness, extracting souls with their Dementor's Kiss.", 
+            2, imagePath + "dementor.gif");
+
+            var question5 = new Question("What was the name of Dee's \"Crazy\" Irish Character?", 
             [
                 "Crazy Paddy",
                 "Crazy MacDonald",
                 "Crazy McPoyle",
                 "Miss Information"
             ], "In Season 4, Dee attempts to become famous by creating different internet personalities", 0, imagePath + "crazy-paddy.gif");
-var question6 = new Question('"May I offer you a ________ during this trying time?"',
+
+            var question6 = new Question('"May I offer you a ________ during this trying time?"',
             [
                 "Beer",
                 "French Fry",
