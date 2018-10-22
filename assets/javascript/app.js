@@ -39,7 +39,7 @@ var question1 = new Question("What is Hagrid's full name?",
                 "Hagrid Potter",
                 "Rubeus Hagrid",
                 "Hodor Hagrid"
-            ], "The half-giant Hogwarts gamekeeper is named Rubeus Hagrid", 
+            ], "The half-giant Hogwarts gamekeeper is named Rubeus Hagrid.", 
             2,  imagePath + "hagrid.jpg");
 
 var question2 = new Question("Where does Moaning Myrtle live?", 
@@ -48,7 +48,7 @@ var question2 = new Question("Where does Moaning Myrtle live?",
                 "Girls' bathroom at Hogwarts",
                 "Brothel in Hogsmeade",
                 "Azkaban Prison",
-            ], "Moaning Myrtle haunts the girl's toilets on the first floor at Hogwarts, after she was killed by a Basilisk.", 
+            ], "Moaning Myrtle haunts the girls' toilets on the first floor at Hogwarts, after she was killed by a Basilisk.", 
             1, imagePath + "myrtle.jpg");
 
 var question3 = new Question("Who is Hermione Granger's pet?",
@@ -66,7 +66,7 @@ var question4 = new Question("What is a Dementor?",
                 "A spell to turn you into a demon",
                 "A creature that sucks out your soul",
                 "A sickly sweet candy",
-            ], "These guards of Azkaban prison are magical creaturs who feed on human happiness, extracting souls with their Dementor's Kiss.", 
+            ], "These guards of Azkaban prison are magical creatures who feed on human happiness, extracting souls with their Dementor's Kiss.", 
             2, imagePath + "dementor.jpg");
 
             var question5 = new Question("What was Voldemort's given name?", 
@@ -75,7 +75,7 @@ var question4 = new Question("What is a Dementor?",
                 "Severus Snape",
                 "Vladimir Mortavilich",
                 "Joe Dirt"
-            ], "He-Who-Must-Not-Be-Named was actually named Tom Riddle, after his Muggle dad", 
+            ], "He-Who-Must-Not-Be-Named was actually named Tom Riddle, after his Muggle dad.", 
             0, imagePath + "riddle.jpg");
 
             var question6 = new Question("Where does Harry live?",
@@ -84,7 +84,7 @@ var question4 = new Question("What is a Dementor?",
                 "A pub in Diagon Alley",
                 "A dungeon in Buckingham Palace",
                 "A cupboard under the stairs in Little Whinging",
-            ], "Harry grew up living in the cupboard under the stairs of the Dursley family's house on Privet Drive", 
+            ], "Harry grew up living in the cupboard under the stairs of the Dursley family's house on Privet Drive, Little Whinging, Surrey.", 
             3, imagePath + "closet.jpg");
 ///// END QUESTION SETUP /////////////////////////////////////////////////////////////////////////////////
 
