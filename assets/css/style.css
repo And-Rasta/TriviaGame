@@ -8,11 +8,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 900;
-	font-family: 'Courier New', Courier, monospace;
+	/* font-family: 'Courier New', Courier, monospace; */
 }
 a { 
 	color: black;
-	font-family: 'Courier New', Courier, monospace;
+	/* font-family: 'Courier New', Courier, monospace; */
 	transition: all 200ms ease-in;
 }
 a.answer-choice:hover {
