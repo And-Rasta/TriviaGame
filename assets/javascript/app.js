@@ -13,10 +13,7 @@ var questionClose = "</a></p>";             // Closing HTML for a question.
 var imagePath = "./assets/images/";         // Path to images
 var progressBarRef;                         // Reference to our progress bar plugin
 
-/*
-    This game features background images that cycle like a slideshow, so here we create the array to store each image.
-    Read more: http://danorlovsky.tech/Articles/Cycling-Background-Images-in-jQuery
-*/
+
 var bgPath = './assets/images/background-images/';      
 var backgroundImages = [
     bgPath + 'hp1.jpg',
@@ -159,7 +156,7 @@ var  gameObj = {
         $(this.answersSelector).empty();
         
         // Initialize our progressBar
-        progressBarRef = new CenterProgressBar("#progress-bar-wrapper", "orange", 100 / maxTime);  
+        progressBarRef = new CenterProgressBar("#progress-bar-wrapper", "green", 100 / maxTime);  
 
         // Display the timer immediately
         $(this.timerSelector).text(maxTime)
