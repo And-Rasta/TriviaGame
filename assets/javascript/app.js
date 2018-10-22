@@ -57,7 +57,7 @@ var question3 = new Question("Who is Hermione Granger's pet?",
                 "Gruffalo the Grunion",
                 "Scabbers the Rat",
                 "Crookshanks the Cat",   
-            ], "Right in the pilot episode, we learn Charlie has a crush on the Waitress", 
+            ], "Hermione's sharp-witted cat, Crookshanks, is half-Kneazle.", 
             3, imagePath + "gato.jpg");
 
 var question4 = new Question("What is a Dementor?",
@@ -67,15 +67,16 @@ var question4 = new Question("What is a Dementor?",
                 "A creature that sucks out your soul",
                 "A sickly sweet candy",
             ], "These guards of Azkaban prison are magical creaturs who feed on human happiness, extracting souls with their Dementor's Kiss.", 
-            2, imagePath + "dementor.gif");
+            2, imagePath + "dementor.jpg");
 
-            var question5 = new Question("What was the name of Dee's \"Crazy\" Irish Character?", 
+            var question5 = new Question("What was Voldemort's given name?", 
             [
-                "Crazy Paddy",
-                "Crazy MacDonald",
-                "Crazy McPoyle",
-                "Miss Information"
-            ], "In Season 4, Dee attempts to become famous by creating different internet personalities", 0, imagePath + "crazy-paddy.gif");
+                "Tom Marvolo Riddle",
+                "Severus Snape",
+                "Vladimir Mortavilich",
+                "Joe Dirt"
+            ], "He-Who-Must-Not-Be-Named was actually named Tom Riddle, after his Muggle dad", 
+            0, imagePath + "riddle.jpg");
 
             var question6 = new Question('"May I offer you a ________ during this trying time?"',
             [
