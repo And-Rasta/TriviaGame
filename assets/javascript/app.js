@@ -78,13 +78,14 @@ var question4 = new Question("What is a Dementor?",
             ], "He-Who-Must-Not-Be-Named was actually named Tom Riddle, after his Muggle dad", 
             0, imagePath + "riddle.jpg");
 
-            var question6 = new Question('"May I offer you a ________ during this trying time?"',
+            var question6 = new Question("Where does Harry live?",
             [
-                "Beer",
-                "French Fry",
-                "Soda",
-                "Egg",
-            ], "Frank Reynolds, more than once, offers people under bad circumstances an egg with using that phrase.", 3, imagePath + "egg-offering.gif");
+                "The professor's wing in Hogwarts",
+                "A pub in Diagon Alley",
+                "A dungeon in Buckingham Palace",
+                "A cupboard in Little Whinging",
+            ], "Harry grew up living in the cupboard under the stairs of the Dursley family's house on Privet Drive", 
+            3, imagePath + "closet.jpg");
 ///// END QUESTION SETUP /////////////////////////////////////////////////////////////////////////////////
 
 // Build an array of questions
