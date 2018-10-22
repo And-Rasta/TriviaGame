@@ -21,6 +21,8 @@ var backgroundImages = [
     bgPath + 'hp3.jpg',
     bgPath + 'hp4.jpg',
     bgPath + 'hp5.jpg',
+    bgPath + 'hp6.jpg',
+    bgPath + 'hp7.jpg',
 ];
 
 // Our question object
@@ -41,7 +43,7 @@ var question1 = new Question("According to the episode title, what is a \"Nation
                 "Underage Drinking",
                 "Charlie having cancer"
             ], "In Season 1 Episode 3, the gang tries to tackle the issue of teenagers drinking by creating a safe place for them to consume booze.", 
-            2,  imagePath + "underageDrinking.jpg");
+            2,  imagePath + "win.jpg");
 
 var question2 = new Question("Which two main characters are a couple outside of the show?", 
             [
